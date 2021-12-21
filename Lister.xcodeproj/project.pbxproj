@@ -16,6 +16,7 @@
 		AB60271C276E609D0083ED9A /* ListerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60271B276E609D0083ED9A /* ListerTests.swift */; };
 		AB602726276E609D0083ED9A /* ListerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB602725276E609D0083ED9A /* ListerUITests.swift */; };
 		AB602728276E609D0083ED9A /* ListerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB602727276E609D0083ED9A /* ListerUITestsLaunchTests.swift */; };
+		AB98F07A2771B253009ED33C /* doc-v1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AB98F0792771B253009ED33C /* doc-v1.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AB602721276E609D0083ED9A /* ListerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB602725276E609D0083ED9A /* ListerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListerUITests.swift; sourceTree = "<group>"; };
 		AB602727276E609D0083ED9A /* ListerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB98F0792771B253009ED33C /* doc-v1.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "doc-v1.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		AB6026F8276E609B0083ED9A = {
 			isa = PBXGroup;
 			children = (
+				AB98F0782771B1E6009ED33C /* Documentation */,
 				AB602703276E609B0083ED9A /* Lister */,
 				AB60271A276E609D0083ED9A /* ListerTests */,
 				AB602724276E609D0083ED9A /* ListerUITests */,
@@ -125,6 +128,14 @@
 				AB602727276E609D0083ED9A /* ListerUITestsLaunchTests.swift */,
 			);
 			path = ListerUITests;
+			sourceTree = "<group>";
+		};
+		AB98F0782771B1E6009ED33C /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				AB98F0792771B253009ED33C /* doc-v1.rtf */,
+			);
+			path = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			files = (
 				AB602711276E609D0083ED9A /* LaunchScreen.storyboard in Resources */,
 				AB60270E276E609D0083ED9A /* Assets.xcassets in Resources */,
+				AB98F07A2771B253009ED33C /* doc-v1.rtf in Resources */,
 				AB60270C276E609B0083ED9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
