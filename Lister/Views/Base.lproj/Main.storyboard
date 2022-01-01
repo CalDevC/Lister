@@ -11,7 +11,7 @@
         <!--landingPage-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="landingPage" customClass="ViewController" customModule="Lister" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="landingPage" customClass="LandingPageVC" customModule="Lister" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,7 +71,7 @@
         <!--registration-->
         <scene sceneID="b1l-TS-I8u">
             <objects>
-                <viewController id="eTE-16-gne" userLabel="registration" sceneMemberID="viewController">
+                <viewController id="eTE-16-gne" userLabel="registration" customClass="RegistrationVC" customModule="Lister" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cvw-HX-EZg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
