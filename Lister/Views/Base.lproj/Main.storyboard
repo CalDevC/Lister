@@ -87,16 +87,17 @@
                     <navigationItem key="navigationItem" id="yaO-K3-j13"/>
                     <connections>
                         <segue destination="JIa-bM-TcE" kind="show" identifier="signIn" id="8og-2J-Ucd"/>
+                        <segue destination="eTE-16-gne" kind="show" identifier="toRegistration" id="cLw-ze-iTb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-151" y="78"/>
         </scene>
-        <!--Collection View Controller-->
+        <!--listSelector-->
         <scene sceneID="07Q-TS-MLT">
             <objects>
-                <collectionViewController id="JIa-bM-TcE" sceneMemberID="viewController">
+                <collectionViewController id="JIa-bM-TcE" userLabel="listSelector" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="pcV-Nw-3Hi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -127,6 +128,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xwi-s3-Qno" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="782" y="327"/>
+        </scene>
+        <!--listView-->
+        <scene sceneID="feo-Fq-hua">
+            <objects>
+                <viewController id="2Vs-jS-9CK" userLabel="listView" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L2w-y2-oBa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="61U-vj-vhl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ufd-1L-qko" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1659" y="338"/>
         </scene>
         <!--registration-->
         <scene sceneID="b1l-TS-I8u">

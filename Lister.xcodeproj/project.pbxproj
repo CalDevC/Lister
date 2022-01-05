@@ -18,6 +18,8 @@
 		AB602726276E609D0083ED9A /* ListerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB602725276E609D0083ED9A /* ListerUITests.swift */; };
 		AB602728276E609D0083ED9A /* ListerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB602727276E609D0083ED9A /* ListerUITestsLaunchTests.swift */; };
 		AB98F07A2771B253009ED33C /* doc-v1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AB98F0792771B253009ED33C /* doc-v1.rtf */; };
+		ABECDD592785493100C76A7D /* listItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABECDD572785493100C76A7D /* listItemCell.swift */; };
+		ABECDD5A2785493100C76A7D /* listItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABECDD582785493100C76A7D /* listItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		AB602725276E609D0083ED9A /* ListerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListerUITests.swift; sourceTree = "<group>"; };
 		AB602727276E609D0083ED9A /* ListerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AB98F0792771B253009ED33C /* doc-v1.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "doc-v1.rtf"; sourceTree = "<group>"; };
+		ABECDD572785493100C76A7D /* listItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listItemCell.swift; sourceTree = "<group>"; };
+		ABECDD582785493100C76A7D /* listItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = listItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 				AB60270A276E609B0083ED9A /* Main.storyboard */,
 				AB60270D276E609D0083ED9A /* Assets.xcassets */,
 				AB60270F276E609D0083ED9A /* LaunchScreen.storyboard */,
+				ABECDD572785493100C76A7D /* listItemCell.swift */,
+				ABECDD582785493100C76A7D /* listItemCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -262,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB602711276E609D0083ED9A /* LaunchScreen.storyboard in Resources */,
+				ABECDD5A2785493100C76A7D /* listItemCell.xib in Resources */,
 				AB60270E276E609D0083ED9A /* Assets.xcassets in Resources */,
 				AB98F07A2771B253009ED33C /* doc-v1.rtf in Resources */,
 				AB60270C276E609B0083ED9A /* Main.storyboard in Resources */,
@@ -293,6 +300,7 @@
 				AB602705276E609B0083ED9A /* AppDelegate.swift in Sources */,
 				AB602707276E609B0083ED9A /* SceneDelegate.swift in Sources */,
 				AB3E2F182780FA2C00F3B356 /* RegistrationVC.swift in Sources */,
+				ABECDD592785493100C76A7D /* listItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

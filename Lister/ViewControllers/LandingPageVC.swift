@@ -10,11 +10,11 @@ import UIKit
 class LandingPageVC: UIViewController {
 
   @IBAction func signUpBtn(_ sender: UIButton) {
-    
+    performSegue(withIdentifier: "toRegistration", sender: self);
   }
   
   @IBAction func signInBtn(_ sender: UIButton) {
-    performSegue(withIdentifier: "signIn", sender: self)
+    performSegue(withIdentifier: "signIn", sender: self);
   }
   
   
