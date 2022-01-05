@@ -13,6 +13,10 @@ class LandingPageVC: UIViewController {
     
   }
   
+  @IBAction func signInBtn(_ sender: UIButton) {
+    performSegue(withIdentifier: "signIn", sender: self)
+  }
+  
   
   override func viewDidLoad() {
     super.viewDidLoad()
