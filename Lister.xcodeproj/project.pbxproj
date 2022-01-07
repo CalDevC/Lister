@@ -20,6 +20,8 @@
 		AB98F07A2771B253009ED33C /* doc-v1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AB98F0792771B253009ED33C /* doc-v1.rtf */; };
 		ABECDD592785493100C76A7D /* listItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABECDD572785493100C76A7D /* listItemCell.swift */; };
 		ABECDD5A2785493100C76A7D /* listItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABECDD582785493100C76A7D /* listItemCell.xib */; };
+		ABECDD5C27854D1400C76A7D /* listSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABECDD5B27854D1400C76A7D /* listSelectorVC.swift */; };
+		ABECDD5E27854ECA00C76A7D /* listVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABECDD5D27854ECA00C76A7D /* listVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		AB98F0792771B253009ED33C /* doc-v1.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "doc-v1.rtf"; sourceTree = "<group>"; };
 		ABECDD572785493100C76A7D /* listItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listItemCell.swift; sourceTree = "<group>"; };
 		ABECDD582785493100C76A7D /* listItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = listItemCell.xib; sourceTree = "<group>"; };
+		ABECDD5B27854D1400C76A7D /* listSelectorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listSelectorVC.swift; sourceTree = "<group>"; };
+		ABECDD5D27854ECA00C76A7D /* listVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 			children = (
 				AB602708276E609B0083ED9A /* LandingPageVC.swift */,
 				AB3E2F172780FA2C00F3B356 /* RegistrationVC.swift */,
+				ABECDD5B27854D1400C76A7D /* listSelectorVC.swift */,
+				ABECDD5D27854ECA00C76A7D /* listVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -297,8 +303,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB602709276E609B0083ED9A /* LandingPageVC.swift in Sources */,
+				ABECDD5E27854ECA00C76A7D /* listVC.swift in Sources */,
 				AB602705276E609B0083ED9A /* AppDelegate.swift in Sources */,
 				AB602707276E609B0083ED9A /* SceneDelegate.swift in Sources */,
+				ABECDD5C27854D1400C76A7D /* listSelectorVC.swift in Sources */,
 				AB3E2F182780FA2C00F3B356 /* RegistrationVC.swift in Sources */,
 				ABECDD592785493100C76A7D /* listItemCell.swift in Sources */,
 			);
